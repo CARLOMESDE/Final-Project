@@ -1,0 +1,40 @@
+#slider {
+	width: 900px;
+	height: 600px;
+
+	margin: 0 auto;
+	border: 5px solid black;
+	padding: 0px;
+
+	z-index: 100;
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+  }
+  #slider > li {
+	width: 100%;
+	height: 100%;
+
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 15px;
+	font-size: initial;
+	line-height: normal;
+	transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
+	background-size: cover;
+	vertical-align: top;
+	box-sizing: border-box;
+	white-space: normal;
+  }
+  body{
+	  background-color: royalblue;
+  }
+  h1{
+	  color: seashell;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  ul li{
+	  color: seashell;
+	list-style-type:none;
+  }
