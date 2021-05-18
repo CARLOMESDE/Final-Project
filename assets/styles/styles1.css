@@ -78,7 +78,8 @@ div#extra{
     background: cornsilk;
     height: 1390px;
 }
-div#footer{clear:left;
+div#footer{
+    clear:left;
     width:100%;
 }
 img{
@@ -92,5 +93,14 @@ p {
 }
 div#extra{
     float: left;
+}
+@media (max-width: 980px){
+    div#navigation{
+        margin-right:200px;
+    }
+    div#content{
+        float: right;
+    }
+    
 }
 

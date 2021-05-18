@@ -18,7 +18,7 @@ body{
     flex-wrap:wrap ;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px lightblue;
+    box-shadow: 0px 0px 10px 0px rgba(173, 216, 230, 0.356);
 }
 .map{
    width: 100%;
@@ -54,7 +54,7 @@ body{
  }
  .form-txt::placeholder
  {
-     color:ghostwhite;
+     color:rgb(157, 157, 221);
  }
  .form-textarea{
     width: 100%;
@@ -69,17 +69,41 @@ body{
  }
  .form-txt::placeholder
  {
-     color:ghostwhite;
+     color:rgb(67, 67, 175);
  }
  .contact-form-btn{
    width: 100%;
    border:none ;
    outline: none;
     border-radius: 50px;
-   background: rgb(179, 232, 245);
-   color: white;
+   background: rgb(50, 66, 155);
+   color: rgb(202, 215, 226);
    text-transform: uppercase;
    padding: 10px 0;
    cursor: pointer;
    font-size:18px;
+ }
+ .contact-form-btn:hover{
+    width: 100%;
+    border:none ;
+    outline: none;
+     border-radius: 50px;
+    background: rgb(34, 70, 187);
+    color: rgb(206, 224, 240);
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size:18px;
+  }
+ h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     color: blanchedalmond;
+ }
+ .form-txt{
+     text-align: left;
+ }
+ .form-textarea{
+     text-align: center;
+     font-size: 15px;
  }
